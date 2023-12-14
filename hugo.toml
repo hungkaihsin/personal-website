@@ -1,3 +1,55 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "http://example.org/"
+defaultContentLanguage = "en"
+languageCode = "en"
+
+title = "Kaihsin, Hung"
+
+theme = "gokarna"
+
+# Automatically generate robots.txt
+enableRobotsTXT = true
+
+[menu]
+ 
+  [[menu.main]]
+    identifier = "home"
+    url = "/"
+    weight = 3
+    pre = "<span data-feather='home'></span>"
+
+[params]
+  # URL for the avatar on homepage
+  avatarURL = "https://i.imgur.com/QACKiPP.jpg"
+
+  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
+  avatarSize = "size-m"
+
+  # Description to display on homepage
+
+    socialIcons = [
+      {name = "github", url = "https://github.com/hungkaihsin"},
+      {name = "linkedin", url = "https://www.linkedin.com/in/kai-hsin-hung-056335294/"},
+      {name = "facebook", url = "https://www.facebook.com/profile.php?id=100001005228665"},
+      {name = "email", url = "mailto:kaihsin.hung0802@gmail.com"},
+    ]
+
+  # Accent color is displayed when you hover over <a> tags
+  accentColor = "#FF4D4D"
+
+  # Display "back to top" button on posts
+  ShowBackToTopButton = true
+
+  # You can use this to inject any HTML in the <head> tag.
+  # Ideal usecase for this is to import custom js/css or add your analytics snippet
+  customHeadHTML = ""
+
+  # Keywords relevant for SEO
+  metaKeywords = ["blog", "gokarna", "hugo"]
+
+  # If you want to display posts on the homepage, the options are
+  # "popular" (order posts by weight), "recent" (order posts by date)
+  # or "" (do not display, default option)
+  
+
+  # Footer text
+  footer = "DANIEL HUNG"
