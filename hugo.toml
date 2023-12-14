@@ -12,10 +12,7 @@ enableRobotsTXT = true
 [menu]
  
   [[menu.main]]
-    identifier = "home"
-    url = "https://hungkaishin.netlify.app/"
-    weight = 3
-    pre = "<span data-feather='home'></span>"
+
 
 [params]
   # URL for the avatar on homepage
