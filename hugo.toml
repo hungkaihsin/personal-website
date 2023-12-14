@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://hungkaihsin.netlify.app/"
 defaultContentLanguage = "en"
 languageCode = "en"
 
@@ -13,7 +13,7 @@ enableRobotsTXT = true
  
   [[menu.main]]
     identifier = "home"
-    url = "/"
+    url = "https://hungkaishin.netlify.app/"
     weight = 3
     pre = "<span data-feather='home'></span>"
 
