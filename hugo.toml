@@ -36,7 +36,7 @@ disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
 
   avatar = 'https://imgur.com/xthHu2D.jpg'  # gravatar email or image url
   name = 'Hung'
-  bio = 'Computer scinece; Materials science and engineering'
+  bio = 'Computer science; Materials science and engineering'
 
 
   # misc
