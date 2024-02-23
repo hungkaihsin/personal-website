@@ -10,4 +10,4 @@ author = "Hung"
 
 - Computer software
 
-- [Resume](https://drive.google.com/uc?id=1aqhgUarnY03A1fS-w8w9vvWlA6j-kMn6&export=download)
+- [Resume](https://csma777-my.sharepoint.com/personal/danielkai0802_csmatw_org/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fdanielkai0802%5Fcsmatw%5Forg%2FDocuments%2F02%2EPersonal%2F04%2EImage%26data%2F01%2EImportant%2FCV%2Epdf&parent=%2Fpersonal%2Fdanielkai0802%5Fcsmatw%5Forg%2FDocuments%2F02%2EPersonal%2F04%2EImage%26data%2F01%2EImportant&ga=1)
