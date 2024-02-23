@@ -1,6 +1,6 @@
 +++
 author = "Hung"
-title = "Light-driven actuator based on Graphene Oxide/PVDF-HFP double layer films"
+title = "Graphene Oxide/PVDF-HFP double layer films actuator"
 date = "2024-02-23"
 description = "double layer of nano material actuator"
 tags = [
