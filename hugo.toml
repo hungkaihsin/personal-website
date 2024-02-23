@@ -1,52 +1,85 @@
 baseURL = "https://hungkaihsin.netlify.app/"
-defaultContentLanguage = "en"
 languageCode = "en"
-
-title = "Kaihsin, Hung"
-
-theme = "gokarna"
-
-# Automatically generate robots.txt
+DefaultContentLanguage = "en"
+title = "Hung, Kai-Hsin"
+theme = "hugo-paper"
 enableRobotsTXT = true
 
 [menu]
- 
-  [[menu.main]]
 
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  [[menu.main]]
+    identifier = "contact"
+    name = "Contact"
+    url = "/contact/"
+    weight = 10
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+
+disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # use disqus comments
 
 [params]
-  # URL for the avatar on homepage
-  avatarURL = "https://i.imgur.com/QACKiPP.jpg"
+  # color style
+  color = 'linen'                           # linen, wheat, gray, light
 
-  # Choose one of size-xs, size-s, size-m, size-l & size-xl. (Default: size-m)
-  avatarSize = "size-m"
+  # header social icons
+  github = 'hungkaihsin'                    # github.com/YOUR_GITHUB_ID       
+  linkedin = 'kai-hsin-hung'             # linkedin.com/in/YOUR_LINKEDIN_ID
 
-  # Description to display on homepage
+  avatar = 'https://imgur.com/xthHu2D.jpg'  # gravatar email or image url
+  name = 'Hung'
+  bio = 'Computer scinece; Materials science and engineering'
 
-    socialIcons = [
-      {name = "github", url = "https://github.com/hungkaihsin"},
-      {name = "linkedin", url = "https://www.linkedin.com/in/kai-hsin-hung-056335294/"},
-      {name = "facebook", url = "https://www.facebook.com/profile.php?id=100001005228665"},
-      {name = "email", url = "mailto:kaihsin.hung0802@gmail.com"},
-    ]
 
-  # Accent color is displayed when you hover over <a> tags
-  accentColor = "#FF4D4D"
+  # misc
+  disableHLJS = true                        # disable highlight.js
+  disablePostNavigation = true              # disable post navigation
+  monoDarkIcon = false                       # show monochrome dark mode icon
+  gravatarCdn = 'GRAVATAR_CDN_LINK'         # e.g. 'https://cdn.v2ex.com/gravatar/'
+  math = true                               # enable KaTeX math typesetting globally
+  graphCommentId = "YOUR_GRAPH_COMMENT_ID"  # use graph comment (disqus alternative)
 
-  # Display "back to top" button on posts
-  ShowBackToTopButton = true
+  # giscus
+[params.giscus]
+  repo = 'YOUR_GISCUS_REPO'                 # see https://giscus.app for more details
+  repoId = 'YOUR_GISCUS_REPO_ID'
+  category = 'YOUR__GISCUS_CATEGORY'
+  categoryId = 'YOUR_GISCUS_CATEGORY_ID'
+  mapping = 'pathname'
+  theme = 'light'
+  lang = 'zh-CN'
 
-  # You can use this to inject any HTML in the <head> tag.
-  # Ideal usecase for this is to import custom js/css or add your analytics snippet
-  customHeadHTML = ""
+[privacy]
 
-  # Keywords relevant for SEO
-  metaKeywords = ["blog", "gokarna", "hugo"]
+  [privacy.vimeo]
+    disabled = false
+    simple = true
 
-  # If you want to display posts on the homepage, the options are
-  # "popular" (order posts by weight), "recent" (order posts by date)
-  # or "" (do not display, default option)
-  
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
 
-  # Footer text
-  footer = "DANIEL HUNG"
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true

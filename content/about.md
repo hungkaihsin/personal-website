@@ -1,4 +1,10 @@
-## About me
++++
+title = "About me"
+description = "About me"
+date = "2024-02-23"
+aliases = ["about me", "contact"]
+author = "Hung"
++++
 
 - Materials science and engineering
 
